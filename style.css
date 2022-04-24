@@ -1,0 +1,229 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #f3e2e8;
+  color: #611f5e;
+  font-family: Roboto;
+  margin: 0;
+  padding: 10px 50px 50px 50px;
+}
+
+h1, h2{
+margin: 0;
+
+}
+
+
+header h1{
+font-size: 4rem;
+user-select: none;
+
+}
+
+#logo{
+  display: flex;
+  justify-content: center;
+  padding:10px;
+  
+}
+
+#imglogo{
+  padding-right: 10px;
+  pointer-events: none;
+  width: 100px;
+  height: 100px;
+}
+
+.menu{
+  background-color: #e2afbf;
+  display: flex;
+  justify-content: center;
+   box-shadow: 5px 5px 5px rgba(0,0,0,0.3), 5px 5px 5px rgba(0,0,0,0.3);
+  user-select: none;
+}
+
+.menu a{
+  padding: 14px;
+  color: white;
+  text-decoration: none;
+  transition: background-color 1s;
+ 
+}
+
+.menu a:hover{
+background-color: white;
+color: #611f5e;
+}
+
+.blocoe{
+float: left;
+width: 75%;
+}
+
+
+.blocod{
+float: left;
+width: 25%;
+padding-left: 20px;
+}
+
+.card{
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  box-shadow: 0px 1px 3px rgba(0,0,0,0.1), 0px 1px 2px rgba(0,0,0,0.1);
+ 
+}
+
+#promocaobanner{
+  height: 200px;
+  background-image: url('imagens/cafe nutella.jpg');
+  background-size: 100%;
+  color: white;
+  font-size: 1vw; 
+  position: relative;
+  text-shadow: 2px 2px 1px #c8a2c8;
+  transition: box-shadow 0.4s;
+  cursor: pointer;
+  user-select: none;
+}
+
+
+#promocaobanner:hover{
+box-shadow: 10px 10px 16px #888888;
+
+}
+
+#promocaovalor{
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+
+.sobreimg{
+  height:75px;
+  border-radius: 50%;
+  margin: 10px;
+  box-shadow: 0px 0px 5px #888888;
+  cursor: pointer;
+  transition: box-shadow 1s; 
+}
+
+h4{
+text-align: justify;
+font-family: verdana;
+  
+}
+
+.sobreimg:hover{
+  box-shadow: 5px 5px 5px #888888;
+}
+
+.sobreitens{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.sobretexto a{
+  color: #eb4e5e;
+}
+
+
+.promo{
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 0.9rem;
+  padding: 10px;
+  cursor: pointer;
+  transition: box-shadow 1s;
+  border-radius:20px;
+  border:2px solid #001432;
+  padding: 20px 10px 10px 10px;
+  margin-top: 29px;
+  
+}
+
+.promo:hover{
+  box-shadow:0 0 20px #888888;
+}
+
+
+.promo img{
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.social{
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: center; 
+  
+}
+
+.social img{
+  margin: 5px;
+  cursor: pointer;
+  transition: 1s opacity; 
+  width: 40px;
+  height: 40px;
+}
+
+.social img:hover{
+opacity: 0.5;
+}
+
+.produto img{
+  height: 150px;
+  border:solid 1px;
+    border-radius:20px;
+  border:2px solid #001432;
+  padding: 20px
+  
+}
+.produto:hover{
+box-shadow:0 0 20px #888888;
+   cursor: pointer;
+  transition: box-shadow 0,5s;
+}
+
+.produto{
+text-align: center;
+
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+}
+
+.sobre{
+text-align: center;
+font-family: candara;
+margin-top: 30px;
+ background-color: #e2afbf;
+  display: flex;
+  justify-content: center;
+   box-shadow: 5px 5px 5px rgba(0,0,0,0.3), 5px 5px 5px rgba(0,0,0,0.3);
+  user-select: none;  
+}
+
+.texto{
+font-family: candara;
+font-size: 20px;
+  text-align: justify;
+}
+
+.text{
+font-family: candara;
+font-size: 20px;
+
+}
+
+
